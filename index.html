@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Assignment</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main>
+    <nav>
+      <div class="section-center">
+        <h1>JavaScript Assignment</h1>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section-center">
+        <form class="form">
+          <article class="form-inputs">
+            <div>
+              <label for="num1">First Number:</label>
+              <input type="number" id="num1" placeholder="Enter first number..." class="form-item" />
+            </div>
+            <div>
+              <label for="num2">Second Number:</label>
+              <input type="number" id="num2" placeholder="Enter second number..." class="form-item" />
+            </div>
+
+            <div class="radio-btns">
+              <label for="account-type">Calculate:</label>
+              <div>
+                <span><input type="radio" value="double" id="double" class="form-item" />Double</span>
+                <span><input type="radio" value="square" id="square" class="form-item" />Square</span>
+                <span><input type="radio" value="index" id="index" class="form-item" />Index</span>
+                <span><input type="radio" value="factorial" id="factorial" class="form-item" />Factorial</span>
+                <span><input type="radio" value="sumOfDigits" id="sumOfDigits"
+                    class="form-item" />Sum&nbsp;of&nbsp;Digits</span>
+              </div>
+            </div>
+
+            <div>
+              <label for="num2">Result:</label>
+              <input type="number" id="result" class="form-item" />
+            </div>
+          </article>
+
+          <!-- submit btn -->
+          <button id="submit" class="submit-btn">Calculate</button>
+
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
